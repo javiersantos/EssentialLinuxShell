@@ -5,7 +5,7 @@ An essential shell script for Linux to install must-have applications, like Syna
 
 Developed by Javier Santos, @fjaviersantos
 
-#### How to use Steam Skin Changer
+#### How to use Essential Linux Shell
 ```
 $ chmod +x essentiallinuxshell.sh
 $ sudo ./essentiallinuxshell.sh
