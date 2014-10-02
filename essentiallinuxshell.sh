@@ -4,14 +4,6 @@ VERSION=20140930
 
 # MAIN SCREEN, LANGUAGE SELECTION
 
-
-# SUDO PRIVILIGES #
-if ! zenity --question \
-       --title="Sudo requirement" \
-       --text="Make sure you are running this script with administrator privileges.\n\nHave you ran this script with sudo?"; then
-       exit
-fi
-
 # SELECT LINUX SYSTEM #
 LINUX=$(zenity --list \
                 --title="Essential Linux Shell" \
@@ -27,10 +19,10 @@ fi
 # CHOOSE LANGUAGE AND OPEN SH SCRIPT
 LANGUAGE=$(zenity --list --title="Choose your language" --text="Please select the language to use for the interface.\nPor favor, seleccione el idioma deseo para la interfaz.\n"  --column="Language" "English" "Español")
 if [ $LANGUAGE = "English" ]; then
-	./Ubuntu/14.04/EN/en.sh
+	./Ubuntu/14.04/EN/requirements.sh
 	#echo "English"
 fi
 if [ $LANGUAGE = "Español" ]; then
-	./Ubuntu/14.04/ES/es.sh
+	./Ubuntu/14.04/ES/requirements.sh
 	#echo "Español"
 fi
