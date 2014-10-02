@@ -26,3 +26,18 @@ if [[ $LINUX = "Otro" ]]; then
 	       --text="La distribución de Linux no está soportada."
 	       exit
 fi
+
+# LICENSE AGREEMENT #
+zenity --text-info \
+       --title="License" \
+       --html \
+       --url=https://raw.githubusercontent.com/javiersantos/EssentialLinuxShell/master/LICENSE \
+       --checkbox="He leído y acepto las condiciones."
+case $? in
+    1)
+        exit
+	;;
+    -1)
+        echo "Ups, ha ocurrido algo extraño. Por favor inténtalo de nuevo."
+	;;
+esac

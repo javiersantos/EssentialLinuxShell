@@ -26,3 +26,18 @@ if [[ $LINUX = "Other" ]]; then
 	       --text="Your Linux distribution is not supported yet."
 	       exit
 fi
+
+# LICENSE AGREEMENT #
+zenity --text-info \
+       --title="License" \
+       --html \
+       --url=https://raw.githubusercontent.com/javiersantos/EssentialLinuxShell/master/LICENSE \
+       --checkbox="I read and accept the terms."
+case $? in
+    1)
+        exit
+	;;
+    -1)
+        echo "An unexpected error has occurred. Please try again."
+	;;
+esac
