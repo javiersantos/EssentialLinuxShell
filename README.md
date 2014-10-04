@@ -1,7 +1,7 @@
-Essential Linux Shell (IN DEVELOPMENT)
+Essential Linux Shell
 ===================
 
-An essential shell script for Linux to install must-have applications, like Synapse, Git or Chrome.
+An essential shell script for Linux to install must-have applications, like Synaptic, Git or Chrome.
 
 Developed by Javier Santos, @fjaviersantos
 
