@@ -7,7 +7,6 @@ Developed by Javier Santos, @fjaviersantos
 
 #### How to use Essential Linux Shell
 ```
-$ chmod +x essentiallinuxshell.sh
 $ sudo ./essentiallinuxshell.sh
 ```
 
@@ -15,5 +14,25 @@ $ sudo ./essentiallinuxshell.sh
 * Gedit
 * Emacs
 * Vim
-* Nano
 * Sublime Text
+
+### Browser
+* Chrome
+* Firefox
+* Opera
+
+### TOOLS
+* Git
+* Synaptic
+
+### Multimedia
+* Viewnior
+* XBMC
+* Rhythmbox
+* Audacity
+* VLC
+* Spotify
+
+### Social
+* Skype
+* Thunderbird
