@@ -21,7 +21,7 @@ $ sudo ./essentiallinuxshell.sh
 * Firefox
 * Opera
 
-#### TOOLS
+#### Tools
 * Git
 * Synaptic
 
