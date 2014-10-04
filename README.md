@@ -16,16 +16,16 @@ $ sudo ./essentiallinuxshell.sh
 * Vim
 * Sublime Text
 
-### Browser
+#### Browser
 * Chrome
 * Firefox
 * Opera
 
-### TOOLS
+#### TOOLS
 * Git
 * Synaptic
 
-### Multimedia
+#### Multimedia
 * Viewnior
 * XBMC
 * Rhythmbox
@@ -33,6 +33,6 @@ $ sudo ./essentiallinuxshell.sh
 * VLC
 * Spotify
 
-### Social
+#### Social
 * Skype
 * Thunderbird
